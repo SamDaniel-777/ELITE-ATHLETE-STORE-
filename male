@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <titile></titile>
+        <link rel="stylesheet" href="male.css">
+    </head>
+    <BODY>
+        <header>
+            <div class="left-content">
+                <img src="logo.png" class="logo">
+            </div>
+            <div class="center-content">
+                <h1 class="main-heading"><b>ELITE ATHLETE STORE</b></h1>
+            </div>  
+        </header>
+    
+    <div class="footwear-container">
+        <img src="later.webp" alt="Footwear" class="footwear-image">
+    </div>
+    <p class ="search-results">Search results for </p>
+    <p class ="daily-wear">Training (9)</p>
+    <p class="best-sellers"> BEST SELLERS </p>
+
+    <div class="products-wrapper">
+        <div class="product-container">
+            <a href="training 1-details.html">
+                <img src="mens4.png" alt="UA Fat Tire Venture Pro Shoes" class="product-image">
+            </a>
+            <div class="product-description">
+                <p class="product-tag">Best Seller</p>
+                <h2 class="product-name">UA Fat Tire Venture Pro Shoes</h2>
+                <p class="product-price">$100.00</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="training 2-details.html">
+                <img src="womens4.png" alt="UA Velociti 3 EIS Running Shoes" class="product-image"> 
+            </a>
+            <div class="product-description">
+                <p class="product-tag">Best Seller</p>
+                <h3 class="product-name">UA Velociti 3 EIS Running Shoes</h3>
+                <p class="product-price">$80.00</p>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="training 3-details.html">
+                <img src="unisex4.png" alt="Unisex Project Rock 6 'Cold Blood' Training Shoes" class="product-image"> 
+            </a>
+            <div class="product-description">
+                <p class="product-tag">Best Seller</p>
+                <h3 class="product-name">Unisex Project Rock 6 'Cold Blood' Training Shoes</h3>
+                <p class="product-price">$90.00</p>
+            </div>
+        </div>
+    </div>
+        <p class="Latest-collections">LATEST COLLECTIONS</p>
+
+        <div class="products-wrapper">
+            <div class="product-container">
+                <a href="training 4-details.html">
+                    <img src="mens5.png" alt="Nike Pegasus 41 Blueprint
+                    Men's Road Running Shoes" class="product-image">
+                </a>
+                <div class="product-description">
+                    <p class="product-tag">Just In</p>
+                    <h2 class="product-name">Nike Pegasus 41 Blueprint
+                        Men's Road Running Shoes</h2>
+                    <p class="product-price">$90.00</p>
+                </div>
+            </div>
+            <div class="product-container">
+                <a href="training 5-details.html">
+                    <img src="womens5.png" alt="M Flow Velociti Wind 2 Speed Overdrive" class="product-image"> 
+                </a>
+                <div class="product-description">
+                    <p class="product-tag">Just In</p>
+                    <h3 class="product-name">UA M Flow Velociti Wind 2 Speed Overdrive</h3>
+                    <p class="product-price">$60.00</p>
+                </div>
+            </div>
+            <div class="product-container">
+                <a href="training 6-details.html">
+                    <img src="unisex5.png" alt="CUSHIONING RETURNS ENERGY " class="product-image"> 
+                </a>
+                <div class="product-description">
+                    <p class="product-tag">Just In</p>
+                    <h3 class="product-name">CUSHIONING RETURNS ENERGY </h3>
+                    <p class="product-price">$100.00</p>
+                </div>
+            </div>
+        </div>
+
+            <p class="NEW-ARRIVALS">NEW-ARRIVALS</p>
+
+
+        <div class="products-wrapper">
+            <div class="product-container">
+                <a href="training 7-details.html">
+                    <img src="mens6.jpg" alt="Men Synthetic Foam A " class="product-image">
+                </a>
+                <div class="product-description">
+                    <p class="product-tag">New Arrivals</p>
+                    <h2 class="product-name">Men Synthetic Foam A </h2>
+                    <p class="product-price">$120.00</p>
+                </div>
+            </div>
+            <div class="product-container">
+                <a href="training 8-details.html">
+                    <img src="womens6.png" alt="MOLACARO Preminum Style" class="product-image"> 
+                </a>
+                <div class="product-description">
+                    <p class="product-tag">New Arrivals</p>
+                    <h3 class="product-name">MOLACARO Preminum Style </h3>
+                    <p class="product-price">$90.00</p>
+                </div>
+            </div>
+            <div class="product-container">
+                <a href="training 9-details.html">
+                    <img src="unisex6.png" alt="FLAZE-MODE" class="product-image"> 
+                </a>
+                <div class="product-description">
+                    <p class="product-tag">New Arrivals</p>
+                    <h3 class="product-name">Galaxy-5-shoes</h3>
+                    <p class="product-price">$80.00</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </BODY>   
+</html>

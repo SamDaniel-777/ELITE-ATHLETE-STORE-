@@ -1,0 +1,175 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #808080b9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+     
+}
+
+header .left-content .logo {
+    padding-left: 0px;
+    height: 50px;
+    
+}
+
+header .center-content {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+header .center-content .main-heading {
+    font-size: 24px;
+    text-align: center;
+    margin:-: 0;
+}
+
+
+.best-sellers{
+    text-align: center;
+    font-size:larger ;
+    background-color: #fffefe;
+    color: #1a1a1a;
+}
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap;
+    margin: 20px 0;
+}
+.product-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-left: 150px;
+}
+.product-container:hover{
+    background-color: #eae9e9;
+
+}
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-description {
+    text-align: left;
+    padding: 10px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: green;
+    margin: 5px 0;
+}
+
+.product-tag {
+    font-size: 14px;
+    color: red;
+    margin: 5px 0;
+    font-weight: boldER;
+}
+.Latest-collections{
+    text-align: center;
+    font-size:large ;
+    background-color: #fffefe;
+    color: #1a1a1a;
+
+}
+.NEW-ARRIVALS{
+    text-align: center;
+    font-size:large ;
+    background-color: #fffefe;
+    color: #1a1a1a;
+
+
+}
+.CATEGORY{
+    text-align: center;
+    text-decoration: underline;
+    color: whitesmoke;
+    cursor:pointer;
+}
+.hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    top: 1Q0px;
+    left: 20px;
+    z-index: 1000;
+    color: #0b0b0b;
+}
+
+.vertical-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 10;
+    left: 0;
+    background-color: #444343;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: ;
+}
+
+.vertical-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.vertical-nav a:hover {
+    color: #f1f1f1;
+}
+
+.vertical-nav .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background: none;
+    border: none;
+    color: #818181;
+    cursor: pointer;
+}
+
+.vertical-nav .close-btn:hover {
+    color: #f1f1f1;
+}
+
+

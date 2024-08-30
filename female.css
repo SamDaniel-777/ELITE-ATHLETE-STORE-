@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #808080b9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+     
+}
+
+header .left-content .logo {
+    padding-left: 0px;
+    height: 50px;
+    
+}
+
+header .center-content {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+header .center-content .main-heading {
+    font-size: 24px;
+    text-align: center;
+    margin:-: 0;
+}
+.search-results {
+    font-weight: bold;
+    font-size:large;
+    font-style: normal;
+    padding-left: 30px; 
+    margin-bottom: 5px; 
+}
+
+.daily-wear {
+    font-weight: 700;
+    font-size: x-large;
+    font-style: normal;
+    padding-left: 30px; 
+    margin-top: 5px;
+}
+
+.best-sellers{
+    text-align: center;
+    font-size:larger ;
+    background-color: #fffefe;
+    color: #1a1a1a;
+}
+.products-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap;
+    margin: 20px 0;
+}
+.product-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-description {
+    text-align: left;
+    padding: 10px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: green;
+    margin: 5px 0;
+}
+
+.product-tag {
+    font-size: 14px;
+    color: red;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.Latest-collections{
+    text-align: center;
+    font-size:large ;
+    background-color: #fffefe;
+    color: #1a1a1a;
+
+}
+.NEW-ARRIVALS{
+    text-align: center;
+    font-size:large ;
+    background-color: #fffefe;
+    color: #1a1a1a;
+}
+.MEN{
+    text-align: center;
+    font-size:xx-large ;
+    font-weight:calc();
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #ddd;
+    color: #181717;
+}
+

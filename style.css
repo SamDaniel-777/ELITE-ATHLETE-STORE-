@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header .left-content .logo {
+    padding-left: 0PX;
+    height: 50px;
+}
+
+header .center-content .main-heading {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+header .right-content .login-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header .right-content .login-button:hover {
+    background-color: #777;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.search input[type="text"] 
+{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.para {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.para2{
+    text-align: center;
+    font-size: larger;
+    color: #b5acac;
+}
+.para3{
+    text-align: center;
+    font-size:xx-large;
+    color: #5e5d5d;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.button-container .box-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;w
+}
+
+.button-container .box-button:hover {
+    background-color: #555;
+}
+.button1-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top:0px;
+}
+.button1-container .box-button1 {
+    background-color:#7c7979;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.button1-container .box-button1:hover {
+    background-color: #000000;
+}
+.vertical-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a8a7a7;
+    display: block;
+    transition: 0.3s;
+}
+
+.vertical-nav a:hover {
+    color: #f1f1f1;
+}
+.vertical-nav {
+    height: 100%;
+    position: fixed;
+    top:10;
+    left: 10;
+    bottom: 40;
+    width: 200px; 
+    background-color: #444343; 
+    padding-top: 60px;
+    overflow-y:unset;
+    z-index: 10;
+}
+.brands{
+    color: whitesmoke;
+    background-color: #444343;
+    text-decoration:wavy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.brands:hover{
+    background-color: #4d4b4b;
+
+}

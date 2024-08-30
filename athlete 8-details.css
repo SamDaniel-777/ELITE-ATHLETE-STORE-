@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align:left;
+}
+
+header .left-content .logo {
+    padding-left: 10PX;
+    height: 50px;
+}
+
+header .center-content .main-heading {
+    font-size: 24px;
+    text-align:left;
+    margin: 0;
+    padding-right: 650px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.search input[type="text"] 
+{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.quote{
+    justify-content: center;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+    font-size: 20px;
+    padding-right: 70px;
+}
+.product-image{
+    padding-bottom: 500px;
+    padding-left: 150px;
+}
+.inside-image{
+    padding-bottom:300px;
+}
+.box-button{
+    padding: 15px 60px;
+    display: flex;
+    background-color: #dbd8d8;
+    color: #0d0c0c;
+    font-weight:770;
+    font-size:medium;
+
+}
+.product-container {
+    display: flex;
+    align-items: center;
+}
+.heading{
+    color: orangered;
+    font-size:larger ;
+}
+.heading1{
+    font-size: xx-large;
+    color: rgb(13, 13, 13);
+    font-weight: bolder;
+}
+.heading2{
+    font-weight:bold;
+
+}
+.heading3{
+    font-weight: bolder;
+}
+.heading5{
+    text-decoration: underline;
+    font-size:large;
+}
+.size{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 15px 30px;
+    color: #0d0c0c;
+    font-weight:lighter;
+    background-color: rgb(232, 233, 235);
+    box-shadow: #8e1212;
+
+}
+.size:hover{
+    background-color: #f8f5f5;
+}
+.product-image {
+    width: 600px;
+    margin-right: 20px;
+}
+.product-details {
+    flex: 1;
+}
+.add-to-bag{
+    padding: 30px 80px;
+    background-color:rgb(15, 13, 13);
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    justify-content:space-between;
+}
+.add-to-bag:hover{
+    background-color: #333;
+}
+.Favorite{
+    font-weight: bolder;
+    color: #0d0d0d;
+    background-color: whitesmoke;
+    cursor: pointer;
+    padding: 30px 70px;
+    border-radius: 25px;
+
+}
+.Favorite:hover{
+    background-color: #7d7b7b25;
+}
+.heading6{
+    font-size: medium;
+    color:rgb(18, 17, 17)
+}
+.description{
+    font-size: x-large;
+}
+.last{
+    font-size: larger;
+}
