@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header .main-heading {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 250px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+header .login-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+header .login-button:hover {
+    background-color: #666;
+}
+
+.vertical-nav {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.vertical-nav .brands {
+    font-size: 16px;
+    color: #eee;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+.vertical-nav a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #bbb;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.vertical-nav a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.main-content {
+    margin-left: 240px;
+    padding: 30px;
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search input[type="text"] {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.search input[type="text"]:focus {
+    border-color: #333;
+}
+
+
+.para {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #222;
+}
+
+.para2 {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.para3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0 20px;
+    color: #444;
+}
+
+.button-container,
+.button1-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box-button,
+.box-button1 {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.box-button:hover,
+.box-button1:hover {
+    background-color: #000;
+    transform: scale(1.05);
+}
